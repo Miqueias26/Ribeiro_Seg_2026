@@ -21,6 +21,8 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
@@ -37,6 +39,7 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   width: 100%;
+  overflow-x: hidden;
 }
 
 img {
@@ -1960,6 +1963,10 @@ select:focus {
     grid-template-columns: 1fr;
   }
 
+  .about-text {
+    text-align: center;
+  }
+
   .about-buttons {
     flex-direction: column;
     align-items: center;
@@ -2921,7 +2928,9 @@ select:focus {
 
     /* ========== SECTIONS & CONTAINER MOBILE ========== */
     .container {
-      padding: 0 12px;
+      padding: 0 15px;
+      width: 100%;
+      box-sizing: border-box;
     }
     section {
       padding: 45px 0;
