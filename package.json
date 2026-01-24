@@ -1,0 +1,18 @@
+{
+  "name": "ribeiro-seguranca-trabalho",
+  "version": "1.0.0",
+  "description": "Site institucional da Ribeiro Segurança do Trabalho",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "start": "python -m http.server 8000"
+  },
+  "keywords": [
+    "segurança do trabalho",
+    "SST",
+    "consultoria",
+    "São Paulo"
+  ],
+  "author": "Ribeiro Segurança do Trabalho",
+  "license": "MIT"
+}

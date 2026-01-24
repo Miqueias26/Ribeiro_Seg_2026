@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Iniciar Servidor HTTP",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "-m",
+                "http.server",
+                "8000"
+            ],
+            "problemMatcher": [],
+            "isBackground": true,
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "runOptions": {
+                "runOn": "default"
+            }
+        },
+        {
+            "label": "Abrir no Navegador",
+            "type": "shell",
+            "command": "start",
+            "args": [
+                "http://localhost:8000"
+            ],
+            "windows": {
+                "command": "cmd",
+                "args": [
+                    "/c",
+                    "start",
+                    "http://localhost:8000"
+                ]
+            },
+            "problemMatcher": [],
+            "dependsOn": "Iniciar Servidor HTTP"
+        }
+    ]
+}
