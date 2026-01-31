@@ -77,7 +77,7 @@ Ribeiro_Seg/
 
 ## 📧 Contato
 
-- **Email**: contato@ribeiroseguranca.com.br
+- **Email**: ribeiroconsultoriaetreinamento@gmail.com
 - **Telefone**: 5516997761982
 - **Localização**: São Paulo - SP
 
