@@ -675,6 +675,11 @@ img {
 /* ========== BUTTON EFFECTS - UIVERSE INSPIRED ========== */
 
 /* Efeito de Brilho Dinâmico (Glow Effect) */
+.btn::before,
+.btn::after {
+  pointer-events: none;
+}
+
 .btn::before {
   content: "";
   position: absolute;
