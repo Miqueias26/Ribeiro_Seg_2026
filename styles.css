@@ -1588,12 +1588,18 @@ section {
   margin-bottom: 15px;
   display: flex;
   align-items: flex-start;
-  gap: 10px;
+  gap: 20px;
 }
 
 .footer-contact i {
   margin-top: 5px;
   color: var(--accent-color);
+}
+
+/* Manter nome da cidade e estado sem quebra de linha */
+.footer-contact .location-inline {
+  white-space: nowrap;
+  display: inline-block;
 }
 
 .footer-contact a {
