@@ -61,11 +61,13 @@ git push -u origin main
 #### Opção B: Via CLI da Vercel
 
 1. Instale a CLI da Vercel:
+
    ```bash
    npm install -g vercel
    ```
 
 2. No terminal, dentro da pasta do projeto:
+
    ```bash
    vercel
    ```
@@ -89,13 +91,14 @@ Antes de publicar, atualize o número do WhatsApp no arquivo `script.js`:
 
 ```javascript
 // Linha ~225
-const whatsappNumber = '5511999999999'; // Substitua pelo número real
+const whatsappNumber = "5516997761982"; // Substitua pelo número real
 ```
 
 **Formato do número:**
+
 - Sem espaços, parênteses ou hífens
 - Com código do país (55 para Brasil)
-- Exemplo: `5511999999999` para (11) 99999-9999
+- Exemplo: `5516997761982` para 5516997761982
 
 ### Atualizar Links do WhatsApp
 
@@ -103,7 +106,7 @@ No arquivo `index.html`, atualize os links do WhatsApp:
 
 ```html
 <!-- Linha ~348 -->
-<a href="https://wa.me/5511999999999?text=..." target="_blank">
+<a href="https://wa.me/5516997761982?text=..." target="_blank"></a>
 ```
 
 ## 🔄 Atualizações Futuras
@@ -122,9 +125,11 @@ Para atualizar o site:
 ## 📱 Testar o Site
 
 Após o deploy, você receberá uma URL como:
+
 - `https://ribeiro-seguranca-trabalho.vercel.app`
 
 Teste todas as funcionalidades:
+
 - ✅ Navegação
 - ✅ Formulário de contato
 - ✅ Links do WhatsApp
@@ -134,21 +139,25 @@ Teste todas as funcionalidades:
 ## 🐛 Solução de Problemas
 
 ### Imagens não aparecem
+
 - Verifique se os caminhos estão corretos: `assets/logo_Ribeiro_Seg.png`
 - Certifique-se de que as imagens estão na pasta `assets/`
 
 ### Formulário não funciona
+
 - Verifique o console do navegador (F12)
 - Confirme que o número do WhatsApp está correto
 - Teste em diferentes navegadores
 
 ### Site não atualiza
+
 - Limpe o cache do navegador (Ctrl + Shift + R)
 - Verifique se o deploy foi concluído na Vercel
 
 ## 📞 Suporte
 
 Se tiver problemas:
+
 1. Verifique os logs na Vercel (Deployments > View Function Logs)
 2. Teste localmente primeiro
 3. Verifique a documentação da Vercel: [vercel.com/docs](https://vercel.com/docs)

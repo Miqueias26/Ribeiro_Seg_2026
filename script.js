@@ -335,7 +335,7 @@ if (contactForm) {
     const mensagem = formData.get("mensagem") || "Sem mensagem adicional";
 
     // Número do WhatsApp (substitua pelo número real)
-    const whatsappNumber = "5511999999999"; // Formato: 5511999999999 (sem espaços, parênteses ou hífens)
+    const whatsappNumber = "5516997761982"; // Formato: 5516997761982 (sem espaços, parênteses ou hífens)
 
     // Montar mensagem para WhatsApp
     const whatsappMessage = `*Nova Solicitação de Orçamento - Ribeiro Segurança do Trabalho*

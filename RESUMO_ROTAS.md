@@ -3,6 +3,7 @@
 ## 🎯 O Que Foi Feito
 
 ### 1. ✅ Formulário de Contato com WhatsApp
+
 - Seção de contato completa movida para `contato.html`
 - Formulário funcional que redireciona para WhatsApp
 - Máscara de telefone brasileira
@@ -11,18 +12,19 @@
 
 ### 2. ✅ Páginas Criadas (8 páginas)
 
-| Página | Arquivo | URL | Descrição |
-|--------|---------|-----|-----------|
-| Home | `index.html` | `/` | Página principal |
-| Contato | `contato.html` | `/contato` | Formulário e informações de contato |
-| Sobre Nós | `sobre.html` | `/sobre` | Missão, visão, valores |
-| Serviços | `servicos.html` | `/servicos` | Todos os serviços detalhados |
-| Privacidade | `privacidade.html` | `/privacidade` | Política de privacidade e ética |
-| Qualidade | `qualidade.html` | `/qualidade` | Política da qualidade |
-| Parcerias | `parcerias.html` | `/parcerias` | Parcerias estratégicas |
-| Responsabilidade | `responsabilidade.html` | `/responsabilidade` | Responsabilidade social |
+| Página           | Arquivo                 | URL                 | Descrição                           |
+| ---------------- | ----------------------- | ------------------- | ----------------------------------- |
+| Home             | `index.html`            | `/`                 | Página principal                    |
+| Contato          | `contato.html`          | `/contato`          | Formulário e informações de contato |
+| Sobre Nós        | `sobre.html`            | `/sobre`            | Missão, visão, valores              |
+| Serviços         | `servicos.html`         | `/servicos`         | Todos os serviços detalhados        |
+| Privacidade      | `privacidade.html`      | `/privacidade`      | Política de privacidade e ética     |
+| Qualidade        | `qualidade.html`        | `/qualidade`        | Política da qualidade               |
+| Parcerias        | `parcerias.html`        | `/parcerias`        | Parcerias estratégicas              |
+| Responsabilidade | `responsabilidade.html` | `/responsabilidade` | Responsabilidade social             |
 
 ### 3. ✅ Navegação Atualizada
+
 - Todos os links do menu apontam para as páginas corretas
 - Dropdowns funcionais com links para subpáginas
 - Links de serviços redirecionam para página de contato
@@ -30,17 +32,20 @@
 - Logo clicável leva para home
 
 ### 4. ✅ Rotas Configuradas
+
 - `vercel.json` configurado com rewrites
 - URLs amigáveis funcionando (`/contato`, `/sobre`, etc.)
 - Compatibilidade com URLs diretas (`/contato.html`)
 
 ### 5. ✅ JavaScript Melhorado
+
 - Scroll suave apenas para âncoras na mesma página
 - Detecção automática de página ativa no menu
 - Formulário funcional em todas as páginas
 - Todas as funcionalidades revisadas e testadas
 
 ### 6. ✅ Responsividade
+
 - Todas as páginas responsivas
 - Formulário adaptado para mobile
 - Menu mobile funcional
@@ -68,6 +73,7 @@ Ribeiro_Seg/
 ## 🔗 Mapeamento de Rotas
 
 ### Menu Principal
+
 - **Home** → `index.html`
 - **Sobre Nós** → `sobre.html`
   - Sobre Nós → `sobre.html`
@@ -83,22 +89,28 @@ Ribeiro_Seg/
 ## ⚠️ IMPORTANTE - Antes de Publicar
 
 ### 1. Atualizar Número do WhatsApp
+
 **Arquivo:** `script.js` (linha ~225)
+
 ```javascript
-const whatsappNumber = '5511999999999'; // SUBSTITUIR pelo número real
+const whatsappNumber = "5516997761982"; // SUBSTITUIR pelo número real
 ```
 
 ### 2. Atualizar Links do WhatsApp
+
 **Arquivos:** Todas as páginas HTML
-- Procurar por: `wa.me/5511999999999`
-- Substituir pelo número real em formato: `5511999999999`
+
+- Procurar por: `wa.me/5516997761982`
+- Substituir pelo número real em formato: `5516997761982`
 
 ### 3. Verificar Email
+
 - Confirmar que o email está correto em todas as páginas
 
 ## 🚀 Como Publicar na Vercel
 
 ### Opção 1: Via Site (Recomendado)
+
 1. Acesse [vercel.com](https://vercel.com)
 2. Faça login com GitHub
 3. Clique em "Add New Project"
@@ -106,6 +118,7 @@ const whatsappNumber = '5511999999999'; // SUBSTITUIR pelo número real
 5. Deploy automático!
 
 ### Opção 2: Via CLI
+
 ```bash
 npm install -g vercel
 vercel

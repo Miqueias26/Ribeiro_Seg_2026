@@ -3,6 +3,7 @@
 ## Antes de Publicar
 
 ### 📝 Conteúdo
+
 - [x] Formulário de contato criado
 - [x] Formulário redireciona para WhatsApp
 - [x] Todos os textos adaptados para São Paulo
@@ -11,6 +12,7 @@
 - [x] Logo adicionado no header e footer
 
 ### 🔧 Funcionalidades
+
 - [x] Menu mobile funcional
 - [x] Scroll suave entre seções
 - [x] Botão "voltar ao topo"
@@ -21,6 +23,7 @@
 - [x] Notificações de sucesso
 
 ### 📱 Responsividade
+
 - [x] Mobile (480px)
 - [x] Tablet (768px)
 - [x] Desktop (968px+)
@@ -29,6 +32,7 @@
 - [x] Menu mobile funcional
 
 ### ⚙️ Configurações
+
 - [ ] **ATUALIZAR NÚMERO DO WHATSAPP** em `script.js` (linha ~225)
 - [ ] **ATUALIZAR LINKS DO WHATSAPP** em `index.html`
 - [ ] Verificar email de contato
@@ -37,6 +41,7 @@
 - [x] Caminhos de imagens corretos
 
 ### 🖼️ Imagens
+
 - [x] Logo no header
 - [x] Logo no footer
 - [x] Caminhos relativos corretos
@@ -46,12 +51,12 @@
 
 1. **Atualizar número do WhatsApp:**
    - Abra `script.js`
-   - Linha ~225: `const whatsappNumber = '5511999999999';`
-   - Substitua pelo número real (formato: 5511999999999)
+   - Linha ~225: `const whatsappNumber = '5516997761982';`
+   - Substitua pelo número real (formato: 5516997761982)
 
 2. **Atualizar links do WhatsApp:**
    - Abra `index.html`
-   - Procure por `wa.me/5511999999999`
+   - Procure por `wa.me/5516997761982`
    - Substitua pelo número real
 
 3. **Testar localmente:**
